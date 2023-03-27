@@ -1,0 +1,40 @@
+//wap to add 2 arrays and add 3rd array
+//#include<stdio.h>
+//int main(){
+//	int a[5],b[5],c[5],i;
+//	printf("Enter values of first arrays: ");
+//	for(i=0;i<5;i++){
+//		scanf("%d",&a[i]);
+//	}
+//		printf("Enter values of second arrays: ");
+//		for(i=0;i<5;i++){
+//		scanf("%d",&b[i]);
+//	}
+//    for(i=0;i<5;i++){
+//		c[i]=a[i]+b[i];
+//	}
+//	for(i=0;i<5;i++){
+//		printf("\n the sum of elemets = %d",c[i]);
+//	}
+//	
+//	
+//}
+//wap to replace numbers divisible by 5 by -1
+//#include<stdio.h>
+//int main()
+//{
+//	int a[8],i;
+//	printf("Enter the numbers: ");
+//	for(i=0;i<8;i++){
+//		scanf("%d",&a[i]);
+//	}
+//	for(i=0;i<8;i++){
+//		if(a[i]%5==0){
+//			a[i]=-1;
+//		}
+//	}
+//	for(i=0;i<8;i++){
+//	
+//	printf("\The numbrs replacd are = %d",a[i]);
+//}
+//}
