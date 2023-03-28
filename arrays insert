@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+int i, a[10], pos, n;
+printf("Enter the array elements\n");
+for (i = 0; i < 8 ; i++)
+scanf("%d", &a[i]);
+printf("\n CURRENT ARRAY \n");
+for (i = 0; i < 8 ; i++)
+printf("%d ", a[i]);
+printf("\nEnter the position for insertion: ");
+scanf("%d", &pos);
+printf("\nEnter the number for insertion: ");
+scanf("%d", &n);
+for(i = 7; i >=pos-1 ; i--)
+a[i+1]=a[i];
+a[pos-1] = n;
+printf("\n UPDATED ARRAY \n");
+for (i = 0; i < 10; i++)
+printf("%d ", a[i]);
+return 0;
+}
