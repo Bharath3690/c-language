@@ -1,0 +1,43 @@
+//#include<stdio.h>
+//int main (){
+//	int n;
+//	printf("enter a number:");
+//	scanf("%d",&n);
+//	if (n%2==0)
+//	printf("the num is even ");
+//	return 0;
+//} 
+//#include<stdio.h>
+//int main()
+//{
+//	char v;
+//	printf("enter the alphabet: ");
+//	scanf("%c",&v);
+//	if (v=='a'||v=='e'||v=='i'||v=='o'||v=='u')
+//	printf("\nIts is a vowel");
+//	else
+//	printf("\nIts is a consonent!!");
+//}
+//#include<stdio.h>
+//int main(){
+//	int sub1,sub2,sub3;
+//	float avg;
+//	printf("Enter the marks of sub1:");
+//	scanf("%d",&sub1);
+//	printf("Enter the marks of sub2:");
+//	scanf("%d",&sub2);
+//	printf("Enter the marks of sub3:");
+//	scanf("%d",&sub3);
+//	avg = (sub1+sub2+sub3 )/3;
+//	printf("the avg marks of student: %f",avg);
+//	if (avg>=90)
+//	printf("\nGrade A");
+//	else if(avg>=80&&avg<=90)
+//	printf("\nGrade B");
+//	else if(avg>=70&&avg<=80)
+//	printf("\nGrade C");
+//	else
+//	printf("\nreappear");
+//	
+//	
+//}
