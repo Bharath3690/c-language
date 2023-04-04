@@ -1,0 +1,31 @@
+3:41 PM
+#include<stdio.h>
+struct KOCMR {
+int roll;
+float marks;
+char grade;
+};
+int main() {
+struct KOCMR s1,s2;
+
+printf("Enter roll number of first student");
+scanf("%d",&s1.roll);
+printf("\nEnter roll number of second student");
+scanf("%d",&s2.roll);
+
+printf("\nEnter marks of first student");
+scanf("%f",&s1.marks);
+printf("\nEnter marks of second student");
+scanf("%f",&s2.marks);
+
+printf("\nEnter grade of first student");
+scanf(" %c",&s1.grade);
+printf("\nEnter grade of second student");
+scanf(" %c",&s2.grade);
+
+printf("Details of first student: %d, %.2f, %c", s1.roll,s1.marks,s1.grade);
+
+printf("Details of second student: %d, %.2f, %c", s2.roll,s2.marks,s2.grade);
+
+return 0;
+}
